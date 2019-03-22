@@ -1,4 +1,7 @@
-![alttext](https://github.com/g00dvin/continent-faq/blob/master/res/logo.jpg?raw=true "АПКШ Континет")
+<p align="center">
+  <img width="100" height="100" src="https://github.com/g00dvin/continent-faq/blob/master/res/logo.jpg">
+</p>
+
 # АПКШ Континент
 
 > Так или иначе, но тебе повезло и ты нашел этот документ. Тут мы постараемся рассказать тебе о том, что поможет тебе в дальнейшем не страдать, а получать удовольствие при использовании АПКШ Континент.
