@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100" height="100" src="https://github.com/g00dvin/continent-faq/blob/master/res/logo.jpg">
+  <src="https://github.com/g00dvin/continent-faq/blob/master/res/logo.jpg">
 </p>
 
 # АПКШ Континент
