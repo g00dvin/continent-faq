@@ -20,9 +20,13 @@
     * Страдание - залог успеха
     * Обсуждение в Telegram - https://t.me/apksh
 
+.. _installation:
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Инсталляция ПО
+
+   installation
 
 
 
