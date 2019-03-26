@@ -20,11 +20,10 @@
     * Страдание - залог успеха
     * Обсуждение в Telegram - https://t.me/apksh
 
-.. _common:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Общая информация
+   :caption: Континент
 
    common
 
