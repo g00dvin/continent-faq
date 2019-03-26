@@ -3,8 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Continent's documentation!
+Continent AVD!
 =====================================
+
+АПКШ Континет - программно-аппаратный комплекс для поддержания сетевого нейтралитета производства компании Код Безопасности.
+Официальный сайт производителя находится `здесь <https://www.securitycode.ru>`_.
+
+.. attention:
+    
+    * Вся информация, представленная здесь, носит ознакомительный характер
+    * Мнение авторов может не совпадать с мнением производителя
+    * Страдание - залог успеха
 
 .. toctree::
    :maxdepth: 2
