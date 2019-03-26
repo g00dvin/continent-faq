@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Continent AVD!
+Континент!
 =====================================
 
 АПКШ Континет - программно-аппаратный комплекс для поддержания сетевого нейтралитета производства компании Код Безопасности.
