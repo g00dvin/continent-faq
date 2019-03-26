@@ -3,17 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Continent AVD!
-=====================================
+АПКШ Континент
+==============
 
 АПКШ Континет - программно-аппаратный комплекс для поддержания сетевого нейтралитета производства компании Код Безопасности.
 Официальный сайт производителя находится `здесь <https://www.securitycode.ru>`_.
 
-.. attention:
+.. attention::
     
     * Вся информация, представленная здесь, носит ознакомительный характер
     * Мнение авторов может не совпадать с мнением производителя
     * Страдание - залог успеха
+    * Обсуждение в Telegram - https://t.me/apksh
 
 .. toctree::
    :maxdepth: 2
@@ -21,7 +22,7 @@ Continent AVD!
 
 
 
-Indices and tables
+Индекс
 ==================
 
 * :ref:`genindex`
