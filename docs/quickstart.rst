@@ -23,7 +23,7 @@
 * `dd <https://linux.die.net/man/1/dd>`_ (Linux, *BSD)
 * `Win32DiskImager <https://sourceforge.net/projects/win32diskimager/>`_ (Windows)
 * `Rufus <https://rufus.ie/ru_RU.html>`_ (Windows)
-* `balenaEtcher <https://www.balena.io/etcher/>`_ (Windows, Linux, MacOS)
+* `balenaEtcher <https://www.balena.io/etcher/>`_ (Windows, Linux, MacOS) - для распознавания файла образа необходимо изменить расширение с .flash на .img (cgw_release.flash -> cgw_release.img)
 
 По факту каждый образ это raw image жесткого диска с двумя разделами.
 Первый раздел FAT размером 8 МБ. Предназначен для сохранения ключей администратора ЦУС или же конфигурации и ключей КШ.
