@@ -23,7 +23,7 @@
 * dd (Linux)
 * `Win32DiskImager <https://sourceforge.net/projects/win32diskimager/>`_ (Windwos)
 * `Rufus <https://rufus.ie/ru_RU.html>`_ (Windows)
-* 'balenaEtcher <https://www.balena.io/etcher/>'_ (Windows, Linux, MacOS)
+* `balenaEtcher <https://www.balena.io/etcher/>`_ (Windows, Linux, MacOS)
 
 По факту каждый образ это raw image жесткого диска с двумя разделами.
 Первый раздел FAT размером 8 МБ. Предназначен для сохранения ключей администратора ЦУС или же конфигурации и ключей КШ.
