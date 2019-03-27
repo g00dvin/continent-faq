@@ -20,10 +20,15 @@
 В этом случае на носитель необходимо записать образ USB Flash drive из комплекта поставки.
 Образы находятся на CD-диске в директории Setup\Continent\FLASH\IMAGES, имеют расширение .flash и записываются на USB Flash drive при помощи таких утилит как:
 
-* `dd <https://linux.die.net/man/1/dd>`_ (Linux, *BSD)
+* `dd <https://linux.die.net/man/1/dd>`_ (Linux, BSD)
 * `Win32DiskImager <https://sourceforge.net/projects/win32diskimager/>`_ (Windows)
 * `Rufus <https://rufus.ie/ru_RU.html>`_ (Windows)
-* `balenaEtcher <https://www.balena.io/etcher/>`_ (Windows, Linux, MacOS) - для распознавания файла образа необходимо изменить расширение с .flash на .img (cgw_release.flash -> cgw_release.img)
+* `balenaEtcher <https://www.balena.io/etcher/>`_ (Windows, Linux, MacOS)
+
+.. note::
+
+  Для распознавания файла образа в **balenaEtcher** необходимо изменить расширение с .flash на .img (cgw_release.flash -> cgw_release.img)
+
 
 По факту каждый образ это raw image жесткого диска с двумя разделами.
 Первый раздел FAT размером 8 МБ. Предназначен для сохранения ключей администратора ЦУС или же конфигурации и ключей КШ.
