@@ -26,6 +26,8 @@
    :caption: Континент
 
    common
+   quickstart
+   
 
 
 
