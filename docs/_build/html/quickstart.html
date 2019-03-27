@@ -158,22 +158,22 @@
            <div itemprop="articleBody">
             
   <div class="section" id="quickstart">
-<span id="id1"></span><h1><a class="toc-backref" href="#id7">Быстрый старт</a><a class="headerlink" href="#quickstart" title="Ссылка на этот заголовок">¶</a></h1>
+<span id="id1"></span><h1><a class="toc-backref" href="#id8">Быстрый старт</a><a class="headerlink" href="#quickstart" title="Ссылка на этот заголовок">¶</a></h1>
 <p>АПКШ Континент поставляется с предустановленной текущей тиражируемой версией ПО.
 В некоторых случая может потребоваться ее переустановка (понижение или повышение версии, восстановление работоспособности, установка отладочной версии по и т.д.).</p>
 <div class="contents topic" id="id2">
 <p class="topic-title first">Содержание</p>
 <ul class="simple">
-<li><a class="reference internal" href="#quickstart" id="id7">Быстрый старт</a><ul>
-<li><a class="reference internal" href="#id3" id="id8">Инсталляция на аппаратную платформу</a></li>
-<li><a class="reference internal" href="#id4" id="id9">Инсталляция на виртуальную машину</a></li>
-<li><a class="reference internal" href="#id5" id="id10">Строка инициализации</a></li>
+<li><a class="reference internal" href="#quickstart" id="id8">Быстрый старт</a><ul>
+<li><a class="reference internal" href="#id3" id="id9">Инсталляция на аппаратную платформу</a></li>
+<li><a class="reference internal" href="#id4" id="id10">Инсталляция на виртуальную машину</a></li>
+<li><a class="reference internal" href="#id5" id="id11">Строка инициализации</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="section" id="id3">
-<h2><a class="toc-backref" href="#id8">Инсталляция на аппаратную платформу</a><a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Инсталляция на аппаратную платформу</a><a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
 <p>При инсталляции ПО на аппаратную платформу используются два источника инсталляции:</p>
 <ul class="simple">
 <li>CD-диск (входит в комплекте поставки оборудования)</li>
@@ -219,7 +219,7 @@
 </div>
 </div>
 <div class="section" id="id4">
-<h2><a class="toc-backref" href="#id9">Инсталляция на виртуальную машину</a><a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Инсталляция на виртуальную машину</a><a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
 <p>Для того, чтобы установить ПО Континент на виртуальную машину используется специальный ISO-образ.
 Данный образ содержит в инсталляционных файлах все возможные компоненты комплекса (ЦУС, КШ, КК, ДА, ЦУС-СД, КШ-СД, АРМ ГК).
 Основное отличие данного ISO-образа это эмуляция Соболя, по факту же данный образ может использоваться для установки на x86-совместимое аппаратное обеспечение.
@@ -238,7 +238,7 @@ Cтоит понимать, что в этом случае мы никогда 
 </div>
 </div>
 <div class="section" id="id5">
-<h2><a class="toc-backref" href="#id10">Строка инициализации</a><a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Строка инициализации</a><a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
 <p>Строка инициализации используется для создания устройства в ПУ ЦУС, это способ сообщить ПУ ЦУС идентификационный номер устройства, а так же количество и тип сетевых интерфейсов.</p>
 <div class="admonition attention">
 <p class="first admonition-title">Внимание</p>
@@ -253,8 +253,8 @@ Cтоит понимать, что в этом случае мы никогда 
 К примеру в VirtualBox используются интерфейсы le. Так же стоит обратить внимание, если количество интерфейсов в строке инициализации отличается от фактического количества интерфейсов на аппаратной платформе, это может быть признаком выхода интерфейса из строя, и как следствие ОС не может его обнаружить.</p>
 </div>
 <p>Строка инициализации имеет четкий формат, например:</p>
-<table border="1" class="colwidths-given docutils" id="id6">
-<caption><span class="caption-text"><strong>000027103igb0*02BDigb1*02BDigb2*02BDffff</strong></span><a class="headerlink" href="#id6" title="Постоянная ссылка на таблицу">¶</a></caption>
+<table border="1" class="colwidths-given docutils" id="id7">
+<caption><span class="caption-text"><strong>000027103igb0*02BDigb1*02BDigb2*02BDffff</strong></span><a class="headerlink" href="#id7" title="Постоянная ссылка на таблицу">¶</a></caption>
 <colgroup>
 <col width="27%" />
 <col width="10%" />
@@ -283,6 +283,7 @@ Cтоит понимать, что в этом случае мы никогда 
 <li>ix (оптика 10G) - 0001</li>
 <li>ixl (оптика криптоускоритель) - 2E801</li>
 </ul>
+<p><a class="reference external" href="https://kdemon.github.io/pages/kstrcfg.html">Онлайн генератор строки инициализации</a></p>
 </div>
 </div>
 
