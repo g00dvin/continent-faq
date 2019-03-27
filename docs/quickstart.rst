@@ -116,7 +116,7 @@ Cтоит понимать, что в этом случае мы никогда 
      - ffff 
 
 .. list-table:: 000027103igb0*02BDigb1*02BDigb2*02BDffff
-   :widths: 3 1 16 3
+   :widths: 3 1 9 3
    :header-rows: 0
 
    * - 00002710
