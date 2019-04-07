@@ -39,7 +39,7 @@
 
 Каждый образ установочного ПО содержит требуемый функционал для конкретной реализации ПО:
 
-* arm_release.flash       - АРМ ГК (Генерации Ключей)
+* arm_release.flash*       - АРМ ГК (Генерации Ключей)*
 * cgw.aserv_release.flash - КШ-СД
 * cgw_release.flash       - КШ
 * csw_release.flash       - КК
