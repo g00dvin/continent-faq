@@ -30,6 +30,7 @@
 
    common
    quickstart
+   upgrade
    
 
 
