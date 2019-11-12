@@ -83,23 +83,23 @@ Notes, но и в боевой среде проверить как пройде
 
 ::
 
-cat << end >> /etc/rc.startup/001if
-#!/bin/sh
-ifconfig em0 name ix0
-ifconfig em1 name ix1
-ifconfig em2 name igb0
-ifconfig em3 name igb1
-ifconfig em4 name igb2
-ifconfig em5 name igb3
-ifconfig em6 name igb4
-ifconfig em7 name igb5
-ifconfig em8 name igb6
-ifconfig em9 name igb7
-ifconfig em10 name em0
-ifconfig em11 name em1
-ifconfig em12 name ix2
-ifconfig em13 name ix3
-end
+  cat << end >> /etc/rc.startup/001if
+  #!/bin/sh
+  ifconfig em0 name ix0
+  ifconfig em1 name ix1
+  ifconfig em2 name igb0
+  ifconfig em3 name igb1
+  ifconfig em4 name igb2
+  ifconfig em5 name igb3
+  ifconfig em6 name igb4
+  ifconfig em7 name igb5
+  ifconfig em8 name igb6
+  ifconfig em9 name igb7
+  ifconfig em10 name em0
+  ifconfig em11 name em1
+  ifconfig em12 name ix2
+  ifconfig em13 name ix3
+  end
 
 .. highlight:: none
 
@@ -112,9 +112,9 @@ end
 вас будут те названия, которые вы задавали в скрипте.
 
 .. note::
-	Если выбранный вами гипервизор не поддерживает нужное количество интерфейсов, 
+  Если выбранный вами гипервизор не поддерживает нужное количество интерфейсов, 
   их можно создать используя тот же скрипт переименовывания интерфейсов.
-  Пример::
+  Пример:
 	ifconfig tun1 create; ifconfig tun1 name em1
   ifconfig tun2 create; ifconfig tun2 name em2
   ...
