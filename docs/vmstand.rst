@@ -21,7 +21,6 @@ Notes, но и в боевой среде проверить как пройде
 все пройдет гладко. Увы, ничто не идеально и проверять нужно всё.
 
 Для версии 3.7 и 3.9 рекомендуется использовать следующие гипервизоры: 
-  
   * VMWare
   * VirtualBox(vbox)
 
@@ -31,7 +30,6 @@ Notes, но и в боевой среде проверить как пройде
 ^^^^^^^^^^^^^^^^^^^
 
 Для обоих гипервизоров выбор профиля ОС одинаков:
-  
   * Версия 3.7 - 32-х разрядная версия FreeBSD.
   * Версия 3.9 - 64-х разрядная  версия FreeBSD
 
@@ -39,7 +37,6 @@ Notes, но и в боевой среде проверить как пройде
    Если для версии 3.7 выбрать 64-х битный профиль ничего страшного не произойдет.
 
 Необходимые ресурсы для VM:
-
   * CPU: 1 и более ядро
   * RAM: 1024 Мб и более
   * HDD: 2 Гб и более
@@ -72,40 +69,39 @@ Notes, но и в боевой среде проверить как пройде
 Если гипервизор поддерживает необходимое количество интерфейсов, то это хорошо и вам необходимо минимум теледвижений.
 Для начала нужно включить "мягкий режим" на ЦУС, или настроить соотвествующие правила фильтрации для доступа на ЦУС по ssh (tcp/22).
 Реквизиты для доступа на ЦУС по умолчанию в **debug** версии:
-
   * Логин: root
   * Пароль: chay6spu3reswefE
 
 После успешного подключения к ЦУС по протоколу SSH нужно перейти в директорию 
-
 :guilabel:`cd /etc/rc.startup/`.
-
 В ней создать пустой файл: 
-
 :guilabel:`cat /dev/null >/etc/rc.startup/001if`. 
-
 И записать в него скрипт который будет переименовывать интерфейсы **до** старта демона/сервиса ЦУС.
 Пример скрипта для переименовывания интерфейсов под IPC-3000F::
 
-  ```console
-  cat << end >> /etc/rc.startup/001if
-  #!/bin/sh
-  ifconfig em0 name ix0
-  ifconfig em1 name ix1
-  ifconfig em2 name igb0
-  ifconfig em3 name igb1
-  ifconfig em4 name igb2
-  ifconfig em5 name igb3
-  ifconfig em6 name igb4
-  ifconfig em7 name igb5
-  ifconfig em8 name igb6
-  ifconfig em9 name igb7
-  ifconfig em10 name em0
-  ifconfig em11 name em1
-  ifconfig em12 name ix2
-  ifconfig em13 name ix3
-  end
-  ```
+.. highlight:: bash
+
+::
+
+cat << end >> /etc/rc.startup/001if
+#!/bin/sh
+ifconfig em0 name ix0
+ifconfig em1 name ix1
+ifconfig em2 name igb0
+ifconfig em3 name igb1
+ifconfig em4 name igb2
+ifconfig em5 name igb3
+ifconfig em6 name igb4
+ifconfig em7 name igb5
+ifconfig em8 name igb6
+ifconfig em9 name igb7
+ifconfig em10 name em0
+ifconfig em11 name em1
+ifconfig em12 name ix2
+ifconfig em13 name ix3
+end
+
+.. highlight:: none
 
 Далее нужно сделать скрипт исполняемым: 
 :guilabel:`chmod +x /etc/rc.startup/001if`
