@@ -32,6 +32,5 @@
    quickstart
    upgrade
    vmstand
-   upgrade
 
 
