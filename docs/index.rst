@@ -32,6 +32,7 @@
    common
    quickstart
    upgrade
+   vmstand
    
 
 
