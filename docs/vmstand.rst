@@ -115,7 +115,8 @@ Notes, но и в боевой среде проверить как пройде
   их можно создать используя тот же скрипт переименовывания интерфейсов.
 
 Пример:
-  ::
+::
+
   ifconfig tun1 create; ifconfig tun1 name em1
   ifconfig tun2 create; ifconfig tun2 name em2
   ...
