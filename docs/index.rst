@@ -31,8 +31,13 @@
 
    common
    quickstart
+<<<<<<< HEAD
    upgrade
    vmstand
+=======
+   upgrade
+   diag
+>>>>>>> e2ea9c5026090b2c55701d88628abb7a5c74517e
    
 
 

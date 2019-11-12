@@ -87,25 +87,25 @@ Notes, но и в боевой среде проверить как пройде
 И записать в него скрипт который будет переименовывать интерфейсы **до** старта демона/сервиса ЦУС.
 Пример скрипта для переименовывания интерфейсов под IPC-3000F::
 
-```sh
-cat << end >> /etc/rc.startup/001if
-#!/bin/sh
-ifconfig em0 name ix0
-ifconfig em1 name ix1
-ifconfig em2 name igb0
-ifconfig em3 name igb1
-ifconfig em4 name igb2
-ifconfig em5 name igb3
-ifconfig em6 name igb4
-ifconfig em7 name igb5
-ifconfig em8 name igb6
-ifconfig em9 name igb7
-ifconfig em10 name em0
-ifconfig em11 name em1
-ifconfig em12 name ix2
-ifconfig em13 name ix3
-end
-```
+  ```console
+  cat << end >> /etc/rc.startup/001if
+  #!/bin/sh
+  ifconfig em0 name ix0
+  ifconfig em1 name ix1
+  ifconfig em2 name igb0
+  ifconfig em3 name igb1
+  ifconfig em4 name igb2
+  ifconfig em5 name igb3
+  ifconfig em6 name igb4
+  ifconfig em7 name igb5
+  ifconfig em8 name igb6
+  ifconfig em9 name igb7
+  ifconfig em10 name em0
+  ifconfig em11 name em1
+  ifconfig em12 name ix2
+  ifconfig em13 name ix3
+  end
+  ```
 
 Далее нужно сделать скрипт исполняемым: 
 
